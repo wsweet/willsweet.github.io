@@ -1,0 +1,94 @@
+body {
+  position: relative;
+}
+
+.navbar {
+  border-radius: 0px !important;
+}
+
+.jumbotron {
+  margin-top: 35px;
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.navbar-toggle {
+  border: none;
+  border-radius: 0px;
+}
+.navbar-toggle:hover .icon-bar {
+  background-color: #fff !important;
+}
+
+.grid-block {
+  margin-bottom: 30px;
+}
+.grid-block:hover {
+  opacity: 0.6;
+  border-radius: 20px;
+}
+
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contact-section {
+  background-color: #EEE;
+}
+#contact-section p {
+  font-size: 18px !important;
+}
+
+.contact-form-input {
+  background-color: #EEE;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #999;
+  font-size: 18px;
+  width: 100%;
+}
+.contact-form-input:focus {
+  outline: none;
+  color: #000;
+}
+
+.contact-form-button {
+  width: 100%;
+  background-color: #999;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+.contact-form-button:hover {
+  background-color: #777;
+  color: #fff;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.social-icons-box {
+  width: 220px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  display: inline;
+  width: 70px;
+}
+
+.footer {
+  background-color: #EEE;
+  padding: 30px;
+}
