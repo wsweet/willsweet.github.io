@@ -1,19 +1,67 @@
+/* General styles */
+
 body {
   position: relative;
 }
 
-.navbar {
-  border-radius: 0px !important;
+p {
+  font-size: 15px;
 }
 
 .jumbotron {
   margin-top: 35px;
-  margin-bottom: 0px !important;
-  border-radius: 0px !important;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  color:#fff;
+  text-shadow: 2px 2px 3px #000000;
+
+}
+
+.section-title {
+  margin-top: 60px;
+  margin-bottom:30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:50px;
+}
+
+.section {
+  padding-bottom:50px;
+}
+
+
+/* Navbar */
+
+.navbar {
+  border-radius: 0px;
+  background-color:#fff;
+  border-bottom:0px;§
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #999;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+  background-color: #eaeaea;
+} 
+
+.navbar-inverse .navbar-toggle:hover{
+  background-color: #337ab7;
 }
 
 .navbar-brand {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color:#666;
 }
 
 .navbar-toggle {
@@ -21,72 +69,146 @@ body {
   border-radius: 0px;
 }
 .navbar-toggle:hover .icon-bar {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 
-.grid-block {
-  margin-bottom: 30px;
-}
-.grid-block:hover {
-  opacity: 0.6;
-  border-radius: 20px;
+#header-image {
+  width:100%;
+  max-width: 400px;
 }
 
-.section-title {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+background-color: #337ab7;
+
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color:#8ECBDF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color:#eaeaea;
+  color:#000;
+}
+
+/* Experience Section */
+
+.exp-block {
+  margin-top:30px;
+}
+
+.exp-block .company {
+  margin-top:30px;
   text-transform: uppercase;
 }
 
-#contact-section {
-  background-color: #EEE;
+.exp-block .title {
+  font-weight: bold;
+  font-size:16px;
 }
+
+.role {
+  margin-top:12px;
+  padding-top:8px;
+  /*border-top:3px solid #999;*/
+}
+
+.logo-box {
+  height:145px;
+}
+
+.exp-logo {
+  width:100%;
+  max-width:200px;
+  overflow: hidden;
+}
+
+
+/* Skills section */
+
+#skills-section {
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+#skills-section p{
+  font-size: 16px;
+  margin:20px 0 5px 0;
+}
+
+.skill {
+  font-weight:bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.skill-icon-box {
+  max-width:40px;
+  margin-top:25px;
+  /*border-bottom: solid 3px #999;*/
+}
+.skill-icon {
+  width:100%;
+}
+
+
+/* Certifications section */
+
+.cert {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.cert-block {
+  margin:20px 0;
+}
+
+.cert-icon-big {
+  width:150px;
+}
+
+.cert-icon {
+  width:200px;
+  margin:20px 0;
+
+}
+
+.google-logo {
+  width:100px;
+}
+
+/* Qualifications section */
+
+#qualification-section {
+  background:#eaeaea;
+}
+
+
+
+/* Contact section */
+
 #contact-section p {
-  font-size: 18px !important;
+  font-size: 20px;
 }
 
-.contact-form-input {
-  background-color: #EEE;
-  border-top: none !important;
-  border-right: none !important;
-  border-left: none !important;
-  border-bottom: 2px solid #999;
-  font-size: 18px;
-  width: 100%;
-}
-.contact-form-input:focus {
-  outline: none;
-  color: #000;
+#contact-section .section-title {
+  margin-bottom:60px;
 }
 
-.contact-form-button {
-  width: 100%;
-  background-color: #999;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 0px;
-  margin-bottom: 30px;
-}
-.contact-form-button:hover {
-  background-color: #777;
-  color: #fff;
-}
-
-.contact-text {
-  margin-bottom: 30px;
-}
-
-.social-icons-box {
+.contact-icons-box {
   width: 220px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.social-icon {
+.contact-icon {
   display: inline;
   width: 70px;
+  padding:10px;
 }
+
+
+/* Footer */
 
 .footer {
   background-color: #EEE;
