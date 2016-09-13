@@ -92,7 +92,7 @@ $(document).ready(function(){
 		email: "https://s11.postimg.org/8kwpz39xf/email.png",
 		project: "https://s11.postimg.org/yuhshvvur/projectmanagement.png",
 		social: "https://s11.postimg.org/pb83of8cj/social.png",
-		webdev: "https://s11.postimg.org/ub5jwddz7/webdev.png",
+		dev: "https://s11.postimg.org/ub5jwddz7/webdev.png",
 		facebook: "https://s11.postimg.org/6y7iduxvn/facebook.png",
 		linkedin: "https://s11.postimg.org/zccxxqlfn/linkedin.png",
 		telegram: "https://s11.postimg.org/vh9jv629v/telegram.png",
