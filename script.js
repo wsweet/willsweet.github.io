@@ -97,14 +97,9 @@ $(document).ready(function(){
 		linkedin: "https://s11.postimg.org/zccxxqlfn/linkedin.png",
 		telegram: "https://s11.postimg.org/vh9jv629v/telegram.png",
 		twitter: "https://s11.postimg.org/mar97vx1f/twitter.png"
+	
 	}
 		
-		
-		
-		
-		
-
-	}
 
 	// Banner
 	$('.jumbotron').css('background-image', 'url(' + images.banner + ')');
