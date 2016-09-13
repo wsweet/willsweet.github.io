@@ -70,32 +70,40 @@ $(document).ready(function(){
 
 	var images = {
 
-		beef: "https://s17.postimg.org/llrcffcl7/beeflogo.png",
-		billericay: "https://s17.postimg.org/tfwjek9rv/billericay.png",
-		profile: "https://s17.postimg.org/vlqu92d8b/bridge.jpg",
-		cim: "https://s17.postimg.org/m2h5flpq3/cim.png",
-		ck: "https://s17.postimg.org/cj7gm527v/cklogo.png",
-		dmu: "https://s17.postimg.org/dziz4a54r/dmu.png",
-		banner: "https://s17.postimg.org/i9xmzva7v/Exit_Bricks.jpg",
-		freedman: "https://s17.postimg.org/uecwgun3v/freedmanlogo.png",
-		gomad: "https://s17.postimg.org/c02dcvat7/gomadlogo.png",
-		google: "https://s17.postimg.org/cqv3ind6j/google.png",
-		hush: "https://s17.postimg.org/fz469fou3/hushlogo.png",
-		idm: "https://s17.postimg.org/oveyddfgb/idm.png",
-		adwords: "https://s11.postimg.org/cosmugzjz/Adwords.png",
-		analytics: "https://s11.postimg.org/a8qtgmhhb/analytics.png",
-		cms: "https://s11.postimg.org/85ge8yhof/CMS.png",
-		creative: "https://s11.postimg.org/gb3i48c8v/creative.png",
-		crm: "https://s11.postimg.org/62b0yeo73/CRM.png",
-		email: "https://s11.postimg.org/51as9a77j/email.png",
-		project: "https://s11.postimg.org/ox6roto8v/projectmanagement.png",
-		social: "https://s11.postimg.org/yvrqbaxof/social.png",
-		webdev: "https://s11.postimg.org/g4pt1533z/webdev.png",
-		facebook: "https://s11.postimg.org/p10l52tq7/facebook.png",
-		linkedin: "https://s11.postimg.org/8ej0w00sf/linkedin.png",
-		telegram: "https://s11.postimg.org/l774vxce7/telegram.png",
-		twitter: "https://s11.postimg.org/ir5bi2ubj/twitter.png"
+		beef: "https://s17.postimg.org/72k7e0jgf/beeflogo.png",
+		billericay: "https://s17.postimg.org/mconyy4cf/billericay.png",
+		profile: "https://s17.postimg.org/qabxocr5r/bridge.jpg",
+		cim: "https://s17.postimg.org/z6mpsahrz/cim.png",
+		ck: "https://s17.postimg.org/kopikaqgv/cklogo.png",
+		dmu: "https://s17.postimg.org/66sbcaz5r/dmu.png",
+
+		banner: "https://s17.postimg.org/h7nghbren/Exit_Bricks.jpg",
+		freedman: "https://s17.postimg.org/k4ahhlx8f/freedmanlogo.png",
+		gomad: "https://s17.postimg.org/cpl5p8bcv/gomadlogo.png",
+		google: "https://s17.postimg.org/c1cb6acn3/google.png",
+		hush: "https://s17.postimg.org/5cad40gov/hushlogo.png",
+		idm: "https://s17.postimg.org/5qbp3m0sf/idm.png",
 	
+		adwords: "https://s11.postimg.org/82wim4e0z/Adwords.png",
+		analytics: "https://s11.postimg.org/xzq6yqhoj/analytics.png",
+		cms: "https://s11.postimg.org/c1tq4y2o3/CMS.png",
+		creative: "https://s11.postimg.org/azoljiq6b/creative.png",
+		crm: "https://s11.postimg.org/fmunladj7/CRM.png",
+		email: "https://s11.postimg.org/8kwpz39xf/email.png",
+		project: "https://s11.postimg.org/yuhshvvur/projectmanagement.png",
+		social: "https://s11.postimg.org/pb83of8cj/social.png",
+		webdev: "https://s11.postimg.org/ub5jwddz7/webdev.png",
+		facebook: "https://s11.postimg.org/6y7iduxvn/facebook.png",
+		linkedin: "https://s11.postimg.org/zccxxqlfn/linkedin.png",
+		telegram: "https://s11.postimg.org/vh9jv629v/telegram.png",
+		twitter: "https://s11.postimg.org/mar97vx1f/twitter.png"
+	}
+		
+		
+		
+		
+		
+
 	}
 
 	// Banner
@@ -122,8 +130,8 @@ $(document).ready(function(){
 	$('#social').attr('src', images.social);
 	$('#creative').attr('src', images.creative);
 	$('#linkedin').attr('src', images.linkedin);
-	$('#twitter').attr('src', icons.twitter);
-	$('#telegram').attr('src', icons.telegram);
+	$('#twitter').attr('src', images.twitter);
+	$('#telegram').attr('src', images.telegram);
 
 	// Certifications
 	$('.cim-logo').attr('src', images.cim);
