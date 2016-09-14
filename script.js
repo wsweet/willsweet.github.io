@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	/* <<<<<<<< Adjust scrollspy scroll >>>>>>>> */
 
-		var offset = 30;
+		var offset = 25;
 		
 		// When clicking a button in the nav...
 		$('.navbar li a').click(function(event) {
