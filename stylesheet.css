@@ -39,7 +39,11 @@ p {
 .navbar {
   border-radius: 0px;
   background-color:#fff;
-  border-bottom:0px;§
+  border-bottom:0px;
+}
+
+.navbar-inverse .navbar-brand {
+  color:#333;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
