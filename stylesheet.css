@@ -101,6 +101,12 @@ background-color: #337ab7;
   margin-top:30px;
 }
 
+@media (max-width: 767px){
+  .exp-block {
+      text-align: center;
+  }
+}
+
 .exp-block .company {
   margin-top:30px;
   text-transform: uppercase;
