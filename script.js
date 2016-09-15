@@ -19,6 +19,29 @@ $(document).ready(function(){
 
 	/* <<<<<<<< END Adjust scrollspy scroll >>>>>>>> */
 
+	/* <<<<<<<< Fade elements in on scroll >>>>>>>> */
+
+	 /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    /* <<<<<<<< END Fade elements in on scroll >>>>>>>> */
+
 	/* <<<<<<<< Images >>>>>>>> */
 
 	var images = {
@@ -53,20 +76,13 @@ $(document).ready(function(){
 	
 	}
 
-	// Banner
 	$('.jumbotron').css('background-image', 'url(' + images.banner + ')');
-
-	// Header
 	$('#header-image').attr('src', images.profile);
-
-	// Logos
 	$('#cklogo').attr('src', images.ck);
 	$('#beeflogo').attr('src', images.beef);
 	$('#freedmanlogo').attr('src', images.freedman);
 	$('#hushlogo').attr('src', images.hush);
 	$('#gomadlogo').attr('src', images.gomad);
-
-	// Icons
 	$('#adwords').attr('src', images.adwords);
 	$('#analytics').attr('src', images.analytics);
 	$('#dev').attr('src', images.dev);
@@ -79,13 +95,9 @@ $(document).ready(function(){
 	$('#linkedin').attr('src', images.linkedin);
 	$('#twitter').attr('src', images.twitter);
 	$('#telegram').attr('src', images.telegram);
-
-	// Certifications
 	$('.cim-logo').attr('src', images.cim);
 	$('.idm-logo').attr('src', images.idm);
 	$('.google-logo').attr('src', images.google);
-
-	// Qualifications
 	$('.dmu-logo').attr('src', images.dmu);
 	$('.billericay-logo').attr('src', images.billericay);
 

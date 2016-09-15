@@ -33,6 +33,11 @@ p {
   padding-bottom:50px;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
 
 /* Navbar */
 
