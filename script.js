@@ -21,17 +21,17 @@ $(document).ready(function(){
 
 	/* <<<<<<<< Fade elements in on scroll >>>>>>>> */
 
-    /* Every time the window is scrolled ... */
+    // Every time the window is scrolled...
     $(window).scroll( function(){
     
-        /* Check the location of each desired element */
+        //Check the location of each hideme element
         $('.hideme').each( function(i){
             
             var mobileOffset = 100;
             var bottomOfObject = $(this).offset().top + $(this).outerHeight();
             var bottomOfWindow = $(window).scrollTop() + $(window).height();
             
-            /* If the object is completely visible in the window, fade it it */
+            //When the bottom of the completely visible in the window, fade it it */
             if( bottomOfWindow + mobileOffset > bottomOfObject ){
                 
                 $(this).animate({'opacity':'1'},500);
@@ -50,7 +50,8 @@ $(document).ready(function(){
 
 		beef: "https://s17.postimg.org/72k7e0jgf/beeflogo.png",
 		billericay: "https://s17.postimg.org/mconyy4cf/billericay.png",
-		profile: "https://s17.postimg.org/qabxocr5r/bridge.jpg",
+		//profile: "https://s17.postimg.org/qabxocr5r/bridge.jpg",
+		profile: "https://s9.postimg.org/p7srdhqrz/a786ad47_7c8a_47ca_b033_aab23285a79b.jpg",
 		cim: "https://s17.postimg.org/z6mpsahrz/cim.png",
 		ck: "https://s17.postimg.org/kopikaqgv/cklogo.png",
 		dmu: "https://s17.postimg.org/66sbcaz5r/dmu.png",
