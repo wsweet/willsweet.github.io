@@ -13,7 +13,7 @@ $(document).ready(function(){
 	   	$($(this).attr('href'))[0].scrollIntoView();
 
 	   	// ... and offset it so it's not touching the top of the screen
-	   	scrollBy(0, -offset);
+	   	scrollBy( 0, -offset );
 
 		}); 
 
@@ -27,13 +27,13 @@ $(document).ready(function(){
         //Check the location of each hideme element
         $('.hideme').each( function(i){
             
-            var mobileOffset = 100;
             var bottomOfObject = $(this).offset().top + $(this).outerHeight();
             var bottomOfWindow = $(window).scrollTop() + $(window).height();
             
-            //When the bottom of the completely visible in the window, fade it it */
-            if( bottomOfWindow + mobileOffset > bottomOfObject ){
+            //When the bottom of the element is visible
+            if( bottomOfWindow > bottomOfObject ){
                 
+                //Fade it in
                 $(this).animate({'opacity':'1'},500);
                     
             }
@@ -55,14 +55,12 @@ $(document).ready(function(){
 		cim: "https://s17.postimg.org/z6mpsahrz/cim.png",
 		ck: "https://s17.postimg.org/kopikaqgv/cklogo.png",
 		dmu: "https://s17.postimg.org/66sbcaz5r/dmu.png",
-
 		banner: "https://s17.postimg.org/h7nghbren/Exit_Bricks.jpg",
 		freedman: "https://s17.postimg.org/k4ahhlx8f/freedmanlogo.png",
 		gomad: "https://s17.postimg.org/cpl5p8bcv/gomadlogo.png",
 		google: "https://s17.postimg.org/c1cb6acn3/google.png",
 		hush: "https://s17.postimg.org/5cad40gov/hushlogo.png",
 		idm: "https://s17.postimg.org/5qbp3m0sf/idm.png",
-	
 		adwords: "https://s11.postimg.org/82wim4e0z/Adwords.png",
 		analytics: "https://s11.postimg.org/xzq6yqhoj/analytics.png",
 		cms: "https://s11.postimg.org/c1tq4y2o3/CMS.png",
