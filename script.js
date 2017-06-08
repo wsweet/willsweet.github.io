@@ -50,11 +50,11 @@ $(document).ready(function(){
 
 		beef: "https://s17.postimg.org/72k7e0jgf/beeflogo.png",
 		billericay: "https://s17.postimg.org/mconyy4cf/billericay.png",
-		//profile: "https://s17.postimg.org/qabxocr5r/bridge.jpg",
 		profile: "https://s9.postimg.org/p7srdhqrz/a786ad47_7c8a_47ca_b033_aab23285a79b.jpg",
 		cim: "https://s17.postimg.org/z6mpsahrz/cim.png",
 		ck: "https://s17.postimg.org/kopikaqgv/cklogo.png",
 		dmu: "https://s17.postimg.org/66sbcaz5r/dmu.png",
+		tundralogo: "https://s17.postimg.org/uohmnblrz/logo_header.png",
 		banner: "https://s17.postimg.org/h7nghbren/Exit_Bricks.jpg",
 		freedman: "https://s17.postimg.org/k4ahhlx8f/freedmanlogo.png",
 		gomad: "https://s17.postimg.org/cpl5p8bcv/gomadlogo.png",
@@ -79,6 +79,7 @@ $(document).ready(function(){
 
 	$('.jumbotron').css('background-image', 'url(' + images.banner + ')');
 	$('#header-image').attr('src', images.profile);
+	$('#tundralogo').attr('src', images.tundralogo);
 	$('#cklogo').attr('src', images.ck);
 	$('#beeflogo').attr('src', images.beef);
 	$('#freedmanlogo').attr('src', images.freedman);
