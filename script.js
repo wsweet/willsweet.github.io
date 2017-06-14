@@ -12,10 +12,10 @@ $(document).ready(function(){
 	   	event.preventDefault();
 	   	
 	   	// ...Scroll to the relevant href...
-	   	$($(this).attr('href'))[0].scrollIntoView();
+	   	$( $(this).attr('href') )[0].scrollIntoView();
 
 	   	// ... and offset it so it's not touching the top of the screen
-	   	scrollBy( 0, -offset );
+	   	scrollBy( 0, - offset );
 
 		}); 
 
